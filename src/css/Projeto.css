@@ -1,0 +1,76 @@
+#container-projeto {
+  width: 100vw;
+  height: 105vh;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#container-projeto.extended-height {
+  height: 150vh;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+  margin: 0 0 20px 60px;
+  border-bottom: 2px solid #ffbc00;
+  width: fit-content;
+}
+
+#mapa {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.busca {
+  width: 100%;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #ffbc00;
+  color: #000;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  border-radius: 15px;
+  font-size: 18px;
+  border: none;
+  margin-left: 30px;
+}
+
+input {
+  width: 84%;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #ffbc00;
+}
+
+#resultados {
+  padding: 120px 10px;
+}
+.bolinha {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.verde {
+  background-color: green;
+}
+
+.amarela {
+  background-color: yellow;
+}
+
+.vermelha {
+  background-color: red;
+}
+
+
+

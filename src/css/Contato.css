@@ -1,0 +1,82 @@
+#container-contato {
+  width: 100vw;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#form-ctt {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 100vh;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#form-ctt h1 {
+  margin-bottom: 30px;
+}
+#form-ctt textarea {
+  border: 1px solid #ffbc00;
+  border-radius: 15px;
+  padding: 20px;
+  width: 95%;
+  height: 10%;
+  resize: none;
+}
+#form-ctt input {
+  width: 95%;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+#form-ctt button {
+  padding: 20px 30px;
+  margin: 10px 0 0 0;
+}
+#info-ctt {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.info-ctt-item {
+  display: flex;
+  align-items: center;
+  width: 45%;
+  margin-right: 2%;
+  margin-left: 60px;
+  text-align: justify;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.info-ctt-item img {
+  margin-right: 10px;
+}
+#content2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0.027)), url(../assets/rodapé.png);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 30vh;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#content2 h2{
+    color: #fff;
+    margin: 0;
+}
+#content2 button{
+    border-radius: 15px;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    background-color: #FFBC00;
+    margin-top: 20px;
+}
+#info-ctt h2, #info-ctt h1{
+  text-transform: uppercase;
+  margin-left: 50px;
+}

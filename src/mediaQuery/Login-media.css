@@ -1,0 +1,15 @@
+@media (max-width: 600px){
+    #form-login h1{
+        font-size: 2em !important;;
+    }
+    #nome, #senha{
+        padding: 10px !important;
+        border-radius: 10px !important;
+    }
+    label{
+        font-size: 15px !important;
+    }
+    #form-login button{
+        width: 75% !important;
+    }
+}

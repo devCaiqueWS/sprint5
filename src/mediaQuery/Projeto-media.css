@@ -1,0 +1,60 @@
+@media (max-width: 1015px){
+    input {
+        width: 74%;
+        padding: 10px;
+        border-radius: 15px;
+        border: 1px solid #ffbc00;
+      }
+      #container-projeto{
+        margin: 0;
+      }
+}
+@media (max-width: 891px) {
+    input {
+        width: 64%;
+        padding: 10px;
+        border-radius: 12px;
+      }
+      h1{
+        font-size: 1.5em;
+        margin-left: 20px;
+      } 
+      h2{
+        font-size: 1em;
+        text-transform: none;
+        margin-left: 20px;
+      }
+      #resultados h2{
+        text-transform: uppercase;
+      }
+    
+}
+@media (max-width: 600px){
+    input {
+        width: 64%;
+        padding: 5px;
+        border-radius: 10px;
+        border: 1px solid #ffbc00;
+      }
+      button{
+        padding: 5px;
+        border-radius: 10px;
+        font-size: 80%;
+      }
+      h1{
+        font-size: 1.4em;
+        margin-left: 0;
+      } 
+      h2{
+        font-size: 0.9em;
+        margin-left: 0;
+        margin-top: 20px;
+      }
+      #resultados h2{
+        text-transform: uppercase;
+      }
+      iframe{
+        height: 200px;
+      }
+}
+

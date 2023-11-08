@@ -1,0 +1,19 @@
+@media (max-width: 860px){
+    #form-ctt input{
+        padding: 10px !important;
+        width: 90%;
+    }
+    #mnsg{
+        width: 87% !important;
+    }
+    #form-ctt button{
+        font-size: 15px;
+        padding: 15px;
+    }
+    #info-ctt h2{
+        text-transform: uppercase;
+    }
+    #content2 h2{
+        font-size: 25px;
+    }
+}

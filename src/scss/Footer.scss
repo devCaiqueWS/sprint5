@@ -1,0 +1,66 @@
+$background-color: #fff;
+$text-color: #000;
+
+.container-footer {
+  width: 100vw;
+  background-color: $background-color;
+  color: $text-color;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0px -10px 10px -10px rgba(0, 0, 0, 0.5);
+
+  div {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .copy{
+        display: list-item;
+        img {
+          max-width: 190px;
+        }
+
+        p {
+          margin: 0;
+          font-size: 15px;
+        }
+  }
+}
+
+
+  footer {
+    position: relative;
+    margin-top: auto;
+    bottom: 0;
+  }
+
+  .news {
+    text-align: center;
+    width: 220px;
+    margin-right: 68px;
+
+    &-content {
+      text-align: center;
+    }
+
+    h4 {
+      margin-bottom: 10px;
+    }
+
+    input {
+      width: 95%;
+      border-radius: 10px;
+    }
+
+    button {
+      margin: 0;
+      font-size: small;
+      border-radius: 10px;
+      width: 100%;
+    }
+  }
+}
